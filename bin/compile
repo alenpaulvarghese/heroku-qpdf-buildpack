@@ -13,7 +13,7 @@ echo "Downloading binaries" | indent
 cd $BUILD_DIR
 mkdir -p $VENDOR_DIR
 cd $VENDOR_DIR
-wget --quiet "https://github.com/qpdf/qpdf/releases/download/release-qpdf-$VERSION/qpdf-$VERSION-x86_64.AppImage"
+wget --quiet "https://s3-eu-west-1.amazonaws.com/myfuturenow-public/qpdf/qpdf-$VERSION-x86_64.AppImage"
 
 echo "Installing binaries" | indent
 chmod a+x qpdf-$VERSION-x86_64.AppImage
