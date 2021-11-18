@@ -1,6 +1,6 @@
 # Heroku Buildpack QPDF
 
-This is a Heroku buildpack for using `qpdf-10.3.2` in your project.
+This is a Heroku buildpack for using `qpdf-10.4.0` in your project.
 
 The binaries for this pack are fetched from qpdf github [release](https://github.com/qpdf/qpdf/releases) page.
 
