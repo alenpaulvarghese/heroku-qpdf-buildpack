@@ -4,7 +4,7 @@ indent() {
   sed -u 's/^/       /'
 }
 
-VERSION=10.5.0
+VERSION=10.6.1
 BUILD_DIR=$1
 VENDOR_DIR="vendor/qpdf"
 
